@@ -1,0 +1,27 @@
+{
+  "name": "restfull-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.13.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Evans Ngugi",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mssql": "^9.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
