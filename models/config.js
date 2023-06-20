@@ -1,8 +1,10 @@
+//configuration file
 import dotenv from 'dotenv';
 import assert from 'assert';
 
 dotenv.config();
 
+//destructure
 const { PORT, HOST, HOST_URL, SQL_USER, SQL_PWD, SQL_DB, SQL_SERVER, JWT_SECRET } = process.env;
 
 const sqlEncrypt = process.env.SQL_ENCRYPT === "true";
